@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meer informatie over CyberSecure en onze missie.">
+    <title>Cyber Secure - Over Ons</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        
+        body {
+            background: url('img/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        
+        .cyber-header, .cyber-footer {
+            background: linear-gradient(135deg, rgba(29, 31, 39, 0.8), rgba(77, 168, 218, 0.5), rgba(29, 31, 39, 0.8));
+            background-size: 300% 300%;
+            animation: galaxyMove 10s infinite;
+            padding: 20px 0;
+            border-bottom: 2px solid rgba(77, 168, 218, 0.8); 
+            text-align: center;
+        }
+
+        
+        @keyframes galaxyMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        
+        .hero {
+            background: radial-gradient(circle at top, rgba(77, 168, 218, 0.5), rgba(29, 31, 39, 0.9));
+            background-size: 200% 200%;
+            animation: auroraMove 12s infinite;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        
+        @keyframes auroraMove {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+
+        
+        .info-card {
+            background-color: #ffffff; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            padding: 20px; 
+        }
+
+        
+        .info-section p {
+            font-size: 1.2rem; 
+            font-weight: bold; 
+            line-height: 1.6; 
+            color: #333333;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    <header class="cyber-header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="cyber-logo text-glow">CyberSecure</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link nav-hover">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link nav-hover">Over Ons</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link nav-hover">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="hero text-center text-white py-5">
+        <div class="container">
+            <h1 class="display-4 text-glow">Over Ons</h1>
+            <p class="lead">Ontdek hoe wij uw digitale wereld veiliger maken.</p>
+        </div>
+    </section>
+
+    
+    <section class="py-5 info-section">
+        <div class="container">
+            <div class="info-card">
+                <h2 class="mb-4 text-cyber text-glow text-center">Onze Missie</h2>
+                <p>Bij CyberSecure zetten wij ons in voor het beschermen van uw digitale wereld. Onze deskundige teams bieden innovatieve oplossingen op het gebied van cybersecurity, zodat u zorgeloos gebruik kunt maken van digitale technologieën.</p>
+                <p>Met jarenlange ervaring en een passie voor veiligheid streven wij ernaar om de beste beveiligingsoplossingen te leveren, op maat gemaakt voor uw specifieke behoeften.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="cyber-footer mt-auto">
+        <div class="container">
+            <p>&copy; 2025 CyberSecure. Alle rechten voorbehouden. | <a href="contact.html" class="text-cyber">Contact</a></p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

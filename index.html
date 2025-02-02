@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Een moderne en responsieve cybersecurity-website ontworpen voor alle schermformaten.">
+    <title>Cyber Secure - Home</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        
+        body {
+            background: url('img/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        
+        .cyber-header, .cyber-footer, .hero {
+            background: url('img/background.jpg') no-repeat center center fixed, linear-gradient(135deg, rgba(29, 31, 39, 0.8), rgba(77, 168, 218, 0.5), rgba(29, 31, 39, 0.8));
+            background-size: cover, 300% 300%;
+            animation: galaxyMove 10s infinite;
+            text-align: center;
+        }
+
+        
+        @keyframes galaxyMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    <header class="cyber-header">
+        <div class="container d-flex justify-content-between align-items-center flex-column flex-md-row">
+            <h1 class="cyber-logo text-glow mb-3 mb-md-0">CyberSecure</h1>
+            <nav>
+                <ul class="nav flex-column flex-md-row">
+                    <li class="nav-item"><a href="index.html" class="nav-link nav-hover">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link nav-hover">Over Ons</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link nav-hover">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section class="hero text-center">
+        <div class="container">
+            <h1 class="display-5 display-md-4 text-glow">Uw Digitale Wereld, Veilig en Zeker</h1>
+            <p class="lead">Innovatieve oplossingen voor een veilige digitale toekomst.</p>
+            <a href="about.html" class="btn btn-glow btn-lg">Meer over ons</a>
+        </div>
+    </section>
+
+    
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4 text-cyber text-glow">Onze Diensten</h2>
+            <div class="row g-4">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow service-card">
+                        <div class="card-body">
+                            <img src="img/consultancy.jpg" alt="Consultancy Afbeelding" class="img-fluid mb-3">
+                            <h3 class="card-title text-cyber">Consultancy</h3>
+                            <p>Advies op maat voor maximale digitale veiligheid.</p>
+                            <a href="consultancy.html"><img src="img/knop.png" alt="Aanvragen"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow service-card">
+                        <div class="card-body">
+                            <img src="img/webontwikkeling.jpg" alt="Webontwikkeling Afbeelding" class="img-fluid mb-3">
+                            <h3 class="card-title text-cyber">Webontwikkeling</h3>
+                            <p>Beveiligde en responsieve weboplossingen.</p>
+                            <a href="webontwikkeling.html"><img src="img/knop.png" alt="Aanvragen"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow service-card">
+                        <div class="card-body">
+                            <img src="img/support.jpg" alt="Support Afbeelding" class="img-fluid mb-3">
+                            <h3 class="card-title text-cyber">Support</h3>
+                            <p>Doorlopende ondersteuning voor uw IT-systemen.</p>
+                            <a href="support.html"><img src="img/knop.png" alt="Aanvragen"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-footer text-center py-4 cyber-footer mt-auto">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <h5 class="text-glow">Contact</h5>
+                    <img src="img/logo-contact.png" style="max-height: 50px;">
+                    <p><i class="fas fa-phone-alt"></i> +31 (0) 00 00 00 00 </p>
+                    <p><i class="fas fa-envelope"></i> info@cyber.com</p>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <a href="jouw-link-hier.html">
+                        <img src="img/knop2.png" alt="Volg ons" style="width: 6cm; height: 2cm;">
+                    </a>
+                </div>
+                    <a href="#" class="me-3"><i class="fab fa-twitter text-cyber"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-facebook text-cyber"></i></a>
+                    <div class="mt-3">
+                        <img src="img/logo1.png" alt="Logo 1" style="max-height: 30px;" class="me-2">
+                        <img src="img/logo2.png" alt="Logo 2" style="max-height: 30px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
